@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewDiseaseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disease Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#C06700"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#007876"
+        android:textStyle="italic"/>
+</LinearLayout>
